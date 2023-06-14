@@ -1,0 +1,99 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        // ==== RUST TASKS ================================================================================ //
+        {
+            "label": "cargo build",
+            "detail": "Build the Rust libraries.",
+            "type": "shell",
+            "command": "cargo build ${input:Config} ${input:Library}",
+            "group": "build"
+        },
+        {
+            "label": "cargo clean",
+            "detail": "Remove all files generated in the 'target' folder.",
+            "type": "shell",
+            "command": "cargo clean",
+            "group": "build"
+        },
+        {
+            "label": "cargo check",
+            "detail": "Compile the Rust libraries, checking for errors and warnings.",
+            "type": "shell",
+            "command": "cargo check ${input:Config} ${input:Library}",
+            "group": "build"
+        },
+        {
+            "label": "cargo clippy",
+            "detail": "Compile the Rust libraries, checking for stricter errors and warnings.",
+            "type": "shell",
+            "command": "cargo clippy ${input:Config} ${input:Library}",
+            "group": "build"
+        },
+        {
+            "label": "cargo test",
+            "detail": "Runs all Rust tests.",
+            "type": "shell",
+            "command": "cargo test ${input:Config} ${input:Library}",
+            "group": "build"
+        },
+        {
+            "label": "cargo doc",
+            "detail": "Generates documentation for Rust libraries.",
+            "type": "shell",
+            "command": "cargo doc --no-deps --open",
+            "group": "build"
+        },
+        // ================================================================================================ //
+    ],
+    "inputs": [
+        {
+            "id": "Config",
+            "type": "pickString",
+            "description": "Pick the Configuration you want to use:",
+            "default": "Debug",
+            "options": [
+                {
+                    "label": "Debug",
+                    "value": ""
+                },
+                {
+                    "label": "Release",
+                    "value": "--release"
+                }
+            ]
+        },
+        {
+            "id": "Library",
+            "type": "pickString",
+            "description": "Pick the name of the Library you want to use:",
+            "default": "wyn",
+            "options": [
+                {
+                    "label": "all",
+                    "value": ""
+                },
+                {
+                    "label": "wyn",
+                    "value": "-p wyn"
+                },
+                {
+                    "label": "rge",
+                    "value": "-p rge"
+                }
+            ]
+        },
+        {
+            "id": "Test",
+            "type": "pickString",
+            "description": "Pick the name of the Test you want:",
+            "options": [
+                "start_stop",
+                "open_close",
+                "execute"
+            ]
+        },
+    ]
+}

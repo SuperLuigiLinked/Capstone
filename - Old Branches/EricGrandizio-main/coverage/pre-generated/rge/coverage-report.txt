@@ -1,0 +1,40 @@
+Filename                                  Regions    Missed Regions     Cover   Functions  Missed Functions  Executed       Lines      Missed Lines     Cover    Branches   Missed Branches     Cover
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+engine.rs                                     127                24    81.10%          28                 1    96.43%         260                24    90.77%           0                 0         -
+lib.rs                                          1                 0   100.00%           1                 0   100.00%           1                 0   100.00%           0                 0         -
+settings.rs                                    41                 9    78.05%          15                 6    60.00%          73                 9    87.67%           0                 0         -
+texture.rs                                     66                12    81.82%          31                 4    87.10%         133                 9    93.23%           0                 0         -
+timer.rs                                       58                 9    84.48%          25                 1    96.00%         122                11    90.98%           0                 0         -
+vulkan\context\debug_messenger.rs              25                 7    72.00%           5                 0   100.00%          75                 9    88.00%           0                 0         -
+vulkan\context\instance.rs                      4                 0   100.00%           2                 0   100.00%          35                 0   100.00%           0                 0         -
+vulkan\context\instance_exts.rs                 1                 0   100.00%           1                 0   100.00%          14                 0   100.00%           0                 0         -
+vulkan\context\mod.rs                           5                 1    80.00%           4                 1    75.00%          35                 3    91.43%           0                 0         -
+vulkan\context\physical_device.rs              11                 1    90.91%           7                 1    85.71%          57                 4    92.98%           0                 0         -
+vulkan\mod.rs                                  13                 3    76.92%           8                 2    75.00%          35                 4    88.57%           0                 0         -
+vulkan\render.rs                               78                13    83.33%          13                 0   100.00%         478                19    96.03%           0                 0         -
+vulkan\renderable\device.rs                     5                 2    60.00%           5                 2    60.00%          33                 6    81.82%           0                 0         -
+vulkan\renderable\device_exts.rs                1                 0   100.00%           1                 0   100.00%           6                 0   100.00%           0                 0         -
+vulkan\renderable\device_selection.rs          66                17    74.24%          27                 6    77.78%         201                22    89.05%           0                 0         -
+vulkan\renderable\ds_info.rs                   23                 2    91.30%          10                 0   100.00%         124                 2    98.39%           0                 0         -
+vulkan\renderable\frames.rs                    20                 2    90.00%          10                 0   100.00%         145                 0   100.00%           0                 0         -
+vulkan\renderable\logical_device.rs             2                 0   100.00%           2                 0   100.00%          51                 0   100.00%           0                 0         -
+vulkan\renderable\mod.rs                        4                 1    75.00%           4                 1    75.00%          48                 3    93.75%           0                 0         -
+vulkan\renderable\surface.rs                    9                 1    88.89%           6                 1    83.33%          53                 3    94.34%           0                 0         -
+vulkan\renderable\swapchain.rs                 14                 2    85.71%           4                 0   100.00%          65                 2    96.92%           0                 0         -
+vulkan\renderable\sync.rs                      14                 1    92.86%           9                 0   100.00%          56                 1    98.21%           0                 0         -
+vulkan\shaders\buffers.rs                       6                 0   100.00%           6                 0   100.00%          84                 0   100.00%           0                 0         -
+vulkan\shaders\command_pool.rs                  5                 0   100.00%           5                 0   100.00%          33                 0   100.00%           0                 0         -
+vulkan\shaders\glsl.rs                         69                 4    94.20%          56                 4    92.86%          60                 4    93.33%           0                 0         -
+vulkan\shaders\graphics_pipelines.rs            8                 0   100.00%           4                 0   100.00%          28                 0   100.00%           0                 0         -
+vulkan\shaders\memory.rs                       11                 2    81.82%           9                 1    88.89%          72                 4    94.44%           0                 0         -
+vulkan\shaders\pipeline_layout.rs               4                 0   100.00%           4                 0   100.00%          31                 0   100.00%           0                 0         -
+vulkan\shaders\pipelines.rs                     1                 0   100.00%           1                 0   100.00%         303                 0   100.00%           0                 0         -
+vulkan\shaders\render_pass.rs                   4                 0   100.00%           4                 0   100.00%          17                 0   100.00%           0                 0         -
+vulkan\shaders\shader.rs                        6                 0   100.00%           6                 0   100.00%          50                 0   100.00%           0                 0         -
+vulkan\utils\aliased.rs                         5                 0   100.00%           5                 0   100.00%          21                 0   100.00%           0                 0         -
+vulkan\utils\extensions.rs                     19                 3    84.21%          14                 2    85.71%          57                 7    87.72%           0                 0         -
+vulkan\utils\layers.rs                         19                 3    84.21%          14                 2    85.71%          47                 7    85.11%           0                 0         -
+vulkan\utils\mod.rs                             2                 1    50.00%           2                 1    50.00%          12                 7    41.67%           0                 0         -
+vulkan\utils\nt_string.rs                      19                13    31.58%          14                 9    35.71%          60                39    35.00%           0                 0         -
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                         766               133    82.64%         362                45    87.57%        2975               199    93.31%           0                 0         -

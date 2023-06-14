@@ -1,0 +1,40 @@
+[package]
+name = "rge"
+version = "0.1.0"
+edition = "2021"
+
+# ================================================================ #
+
+[dependencies]
+
+gui-sys = { path = "../gui-sys" }
+
+wyn = { path = "../wyn" }
+
+# Rust Bindings for the Vulkan Graphics/Compute API (+1.3.238).
+# Crates.io Page: https://crates.io/crates/ash
+ash = { version = "0.37.2", features = ["debug", "linked"] }
+
+# Rust Wrapper for Google's `shaderc` library.
+# Crates.io Page: https://crates.io/crates/shaderc
+shaderc = "0.8.2"
+
+# Helper Function for defer statements.
+# Crates.io Page: https://crates.io/crates/defer
+defer = "0.1.0"
+
+# Tiny Image-Loading Library.
+# Crates.io Page: https://crates.io/crates/stb_image
+stb_image = "0.2.5"
+
+# Multi-Threading Synchronization Library.
+# Crates.io Page: https://crates.io/crates/parking_lot
+parking_lot = { version = "0.12.1", features = [] }
+
+[dev-dependencies]
+
+# Random Number Generation utilities.
+# Crates.io Page: https://crates.io/crates/rand
+rand = "0.8.5"
+
+# ================================================================ #

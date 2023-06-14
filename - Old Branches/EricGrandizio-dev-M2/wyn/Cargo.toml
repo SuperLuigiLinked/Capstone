@@ -1,0 +1,20 @@
+[package]
+name = "wyn"
+version = "0.1.0"
+edition = "2021"
+
+# ================================================================ #
+
+[dependencies]
+
+gui-sys = { path = "../gui-sys" }
+
+# Helper Macro for #[cfg] statements.
+# Crates.io Page: https://crates.io/crates/cfg-if
+cfg-if = "1.0.0"
+
+# Helper Function for defer statements.
+# Crates.io Page: https://crates.io/crates/cfg-if
+defer = "0.1.0"
+
+# ================================================================ #

@@ -1,0 +1,22 @@
+[package]
+name = "wyn"
+version = "0.1.0"
+edition = "2021"
+description = "DESCRIPTION"
+
+# ================================================================ #
+
+[package.metadata.bundle.example.example]
+name = "wyn-example"
+identifier = "com.erg.wyn-example"
+
+# ================================================================ #
+
+[dependencies]
+
+gui-sys = { path = "../gui-sys" }
+
+cfg-if = "1.0.0"
+defer = "0.1.0"
+
+# ================================================================ #
