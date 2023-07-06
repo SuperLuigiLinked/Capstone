@@ -4,9 +4,3 @@ target
 *.lock
 
 coverage/data
-
-gui-sys/src/linux
-gui-sys/src/macos
-
-wyn/src/x11
-wyn/src/cocoa
