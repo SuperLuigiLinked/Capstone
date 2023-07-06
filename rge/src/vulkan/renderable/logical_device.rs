@@ -52,6 +52,7 @@ impl LogicalDevice {
         let required_extensions = Extensions::required_device();
         let required_layers = Layers::required_device();
 
+        #[allow(deprecated)]
         let device_create_info = vk::DeviceCreateInfo {
             p_enabled_features: &device_features,
             p_queue_create_infos: queue_create_infos.as_ptr(),
