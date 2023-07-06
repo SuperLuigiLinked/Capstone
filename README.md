@@ -1,3 +1,13 @@
+# Preface
+
+This repository is a copy of my Capstone Project from my Senior Year of College.
+
+The contents are left more-or-less as they were when the project was submitted.
+
+As is currently, this project should compile and run on Windows.
+
+---
+
 # Rust Game Engine + Windowing Library
 
 My Capstone Project was to develop a cross-platform Windowing Library using native OS libraries as the backend, and then use that library to build a Game Engine/Framework that renders using the Vulkan Graphics API.
