@@ -8,9 +8,9 @@ As is currently, this project should compile and run on Windows.
 The source code for the Linux/MacOS implementations is not up-to-date.
 
 To see some interesting demos, go to `rge` and try out some of the example programs, such as:
-* `rge/examples/fireflies.rs`
-* `rge/tests/game-of-life.rs`
 * `rge/tests/space.rs`
+* `rge/tests/game-of-life.rs`
+* `rge/examples/fireflies.rs`
 
 For the programs in the `tests` folder, check the documentation at the top of each program for instructions on how to use them.
 
