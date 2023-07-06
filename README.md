@@ -5,6 +5,14 @@ This repository is a copy of my Capstone Project from my Senior Year of College.
 The contents are left more-or-less as they were when the project was submitted.
 
 As is currently, this project should compile and run on Windows.
+The source code for the Linux/MacOS implementations is not up-to-date.
+
+To see some interesting demos, go to `rge` and try out some of the example programs, such as:
+* `rge/examples/fireflies.rs`
+* `rge/tests/game-of-life.rs`
+* `rge/tests/space.rs`
+
+For the programs in the `tests` folder, check the documentation at the top of each program for instructions on how to use them.
 
 ---
 
