@@ -4,6 +4,8 @@
  */
 
 //! Example RGE Program.
+//! 
+//! Press the ESCAPE Key to close the window.
 
 // ================================================================================================================================ //
 
@@ -14,10 +16,11 @@ mod utils;
 // ================================================================================================================================ //
 
 use rand::Rng;
-use rge::{EngineState, Game, GameEngine, GameEngineSettings};
+use rge::{EngineState, Game, GameEngine, GameEngineSettings, inputs::Input};
 
 #[allow(unused_imports)]
 use rge::{glsl, rgba, vec2, vec3, vec4, Vertex, VertexUV};
+use wyn::inputs::KC_ESCAPE;
 
 // ================================================================================================================================ //
 
@@ -183,7 +186,7 @@ impl Game for App {
             self.update_particles();
         }
 
-        true
+        !engine.inputs.contains(Input::KeyPress { keycode: KC_ESCAPE, pressed: true })
     }
 
     fn render(&mut self, engine: &mut EngineState) -> bool {
