@@ -14,6 +14,8 @@ To see some interesting demos, go to `rge` and try out some of the example progr
 
 For the programs in the `tests` folder, check the documentation at the top of each program for instructions on how to use them.
 
+If you are unfamiliar with Rust, view the `dev-docs/Rust Docs.md` file to learn how to run the programs.
+
 ---
 
 # Rust Game Engine + Windowing Library
