@@ -14,7 +14,9 @@ To see some interesting demos, go to `rge` and try out some of the example progr
 
 For the programs in the `tests` folder, check the documentation at the top of each program for instructions on how to use them.
 
-If you are unfamiliar with Rust, view the `dev-docs/Rust Docs.md` file to learn how to run the programs.
+To run a program in the `tests` folder, run the command `cargo test --release --test PROGRAM_NAME_HERE -- --ignored --nocapture`.
+
+To run a program in the `examples` folder, run the command `cargo run --release --example PROGRAM_NAME_HERE`.
 
 ---
 
